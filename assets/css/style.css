@@ -1,6 +1,6 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+/* general */
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #555555;
@@ -136,7 +136,7 @@ a:hover {
   margin: 0;
 }
 
-/*------/ Nav Pills  /------*/
+/* navPills */
 .nav-pills-a {
   text-decoration: none;
 }
@@ -162,7 +162,7 @@ a:hover {
   z-index: 2;
 }
 
-/*------/ Bg Image /------*/
+/* bigImage */
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -170,7 +170,7 @@ a:hover {
   background-position: center center;
 }
 
-/*------/ List a /------*/
+/* listA */
 .list-a {
   text-decoration: none;
   display: inline-block;
@@ -203,7 +203,7 @@ a:hover {
   left: 0;
 }
 
-/*------/ Pagination-a /------*/
+/* paginationA */
 .pagination-a {
   text-decoration: none;
 }
@@ -252,7 +252,7 @@ a:hover {
   font-size: 1.3rem;
 }
 
-/*------/ Icon Box /------*/
+/* iconBox */
 .icon-box .icon-box-icon {
   display: table-cell;
   vertical-align: top;
@@ -266,7 +266,7 @@ a:hover {
   padding-top: 18px;
 }
 
-/*------/ Space Padding /------*/
+/* spacePadding */
 .section-t8 {
   padding-top: 8rem;
 }
@@ -311,7 +311,7 @@ a:hover {
   }
 }
 
-/*------/ Title /------*/
+/* title */
 .title-wrap {
   padding-bottom: 4rem;
 }
@@ -360,7 +360,7 @@ a:hover {
   left: 0;
 }
 
-/*------/ Display Table & Table Cell /------*/
+/* displayTable&TableCell */
 .display-table {
   width: 100%;
   height: 100%;
@@ -372,14 +372,14 @@ a:hover {
   vertical-align: middle;
 }
 
-/*------/ Ul Resect /------*/
+/* ulResect */
 .ul-resect ul, .list-a ul, .box-comments ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
-/*------/ Overlay /------*/
+/* overlay */
 .overlay-a {
   text-decoration: none;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
@@ -459,7 +459,7 @@ a:hover {
   margin-left: 0px;
 }
 
-/*------/ Socials /------*/
+/* socials */
 .socials-a {
   text-decoration: none;
 }
@@ -468,9 +468,7 @@ a:hover {
   margin-right: 25px;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/* backToTopButton */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -501,7 +499,7 @@ a:hover {
   opacity: 1;
 }
 
-/* Prelaoder */
+/* preLoader */
 #preloader {
   position: fixed;
   top: 0;
@@ -545,9 +543,7 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   BUTTON
-======================================*/
+/* button */
 .btn {
   transition: .5s ease;
 }
@@ -602,9 +598,7 @@ a:hover {
   line-height: 0;
 }
 
-/*--------------------------------------------------------------
-# Navbar  x
---------------------------------------------------------------*/
+/* navBar */
 .navbar{
   background-color: black !important;
   color: white !important;
@@ -784,7 +778,7 @@ a:hover {
   filter: alpha(opacity=1);
 }
 
-/*------/ Hamburger Navbar /------*/
+/* hamburgerNavBar */
 .navbar-toggler {
   position: relative;
 }
@@ -833,9 +827,8 @@ a:hover {
   opacity: 0.9;
 }
 
-/*======================================
-//--//-->   BOX COLAPSE
-======================================*/
+
+/* boxCollapse */
 .box-collapse {
   position: fixed;
   top: 0;
@@ -951,9 +944,8 @@ a:hover {
   right: 4.2857rem;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
+/* heroSection */
 .intro {
   height: 100vh;
   position: relative;
@@ -1101,7 +1093,7 @@ a:hover {
   }
 }
 
-/*------/ Intro Single /------*/
+/* introSingle */
 .intro-single {
   padding: 12rem 0 3rem;
 }
@@ -1147,9 +1139,7 @@ a:hover {
   padding-left: 0;
 }
 
-/*--------------------------------------------------------------
-# Card General
---------------------------------------------------------------*/
+/* cardGeneral */
 @media (max-width: 767px) {
   .card-box-a,
   .card-box-b,
@@ -1238,9 +1228,8 @@ a:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
 }
 
-/*======================================
-//--//-->   PROPERTY - CARD-A
-======================================*/
+
+/* propertyCardA */
 @media (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 60px;
@@ -1387,7 +1376,7 @@ a:hover {
   }
 }
 
-/*------/ Property Grid /-----*/
+/* propertyGrid */
 .property-grid .grid-option {
   text-align: right;
   margin-bottom: 2rem;
@@ -1407,7 +1396,7 @@ a:hover {
   border-color: #313131;
 }
 
-/*------/ Property Single /-----*/
+/* propertySingle */
 .gallery-property {
   margin-bottom: 3rem;
 }
@@ -1459,9 +1448,8 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   NEWS - CARD-B
-======================================*/
+
+/* newsCard8 */
 .card-header-b {
   padding: 1rem;
   color: #ffffff;
@@ -1532,7 +1520,7 @@ a:hover {
   }
 }
 
-/*------/ News Single /------*/
+/* newsSingle */
 .post-information {
   padding: 3rem 0;
 }
@@ -1579,7 +1567,7 @@ a:hover {
   margin-left: .6rem;
 }
 
-/*------/ Comments /------*/
+/* comments */
 .box-comments .list-comments li {
   padding-bottom: 3.5rem;
 }
@@ -1628,9 +1616,8 @@ a:hover {
   margin-left: 40px;
 }
 
-/*======================================
-//--//-->   SERVICES - CARD-C
-======================================*/
+
+/* servicesCardC */
 .card-box-c {
   position: relative;
 }
@@ -1687,9 +1674,8 @@ a:hover {
   }
 }
 
-/*======================================
-//--//-->   AGENTS - CARD-D
-======================================*/
+
+/* agentsCardD */
 .card-box-d .card-overlay-hover {
   transition: all .2s ease-in-out;
   padding: 15px 40px 15px 35px;
@@ -1802,7 +1788,7 @@ a:hover {
   transform: translateY(0);
 }
 
-/*------/ Agent Single /------*/
+/* agentSingle */
 .agent-info-box .socials-footer {
   margin-top: 2rem;
 }
@@ -1811,9 +1797,8 @@ a:hover {
   margin-right: 1.5rem;
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+
+/* aboutSection */
 .section-about .title-vertical {
   position: absolute;
   letter-spacing: 0;
@@ -1924,9 +1909,7 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+/* testimonialsSection */
 .testimonials-box {
   padding: 1rem 0;
 }
@@ -1977,9 +1960,8 @@ a:hover {
   color: #000000;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
+
+/* contactSection */
 .form-as #sendmessage {
   color: #2EA9E0;
   border: 1px solid #26a356;
@@ -2116,9 +2098,7 @@ a:hover {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* footer */
 .section-footer {
   padding-top: 60px;
   margin-top: 60px;

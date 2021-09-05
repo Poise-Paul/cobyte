@@ -7,9 +7,8 @@
 (function() {
   "use strict";
 
-  /**
-   * Easy selector helper function
-   */
+
+  // easySelectorHelperFunction
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
@@ -19,9 +18,8 @@
     }
   }
 
-  /**
-   * Easy event listener function
-   */
+  
+  // easyEventListenerFunction
   const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
@@ -33,16 +31,14 @@
     }
   }
 
-  /**
-   * Easy on scroll event listener 
-   */
+ 
+  // easyOnScrollEventListener
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
-  /**
-   * Toggle .navbar-reduce
-   */
+
+  // toggleNavbarReduce
   let selectHNavbar = select('.navbar-default')
   if (selectHNavbar) {
     onscroll(document, () => {
@@ -56,9 +52,8 @@
     })
   }
 
-  /**
-   * Back to top button
-   */
+
+  // backToTopButton
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
@@ -72,9 +67,8 @@
     onscroll(document, toggleBacktotop)
   }
 
-  /**
-   * Preloader
-   */
+ 
+  // preloader
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
@@ -82,9 +76,8 @@
     });
   }
 
-  /**
-   * Search window open/close
-   */
+
+  // searchWindowOpen&Close
   let body = select('body');
   on('click', '.navbar-toggle-box', function(e) {
     e.preventDefault()
@@ -98,9 +91,8 @@
     body.classList.add('box-collapse-closed')
   })
 
-  /**
-   * Intro Carousel
-   */
+ 
+  // introCorousel
   new Swiper('.intro-carousel', {
     speed: 600,
     loop: true,
@@ -116,9 +108,8 @@
     }
   });
 
-  /**
-   * Property carousel
-   */
+ 
+  // propertyCorousel
   new Swiper('#property-carousel', {
     speed: 600,
     loop: true,
@@ -145,9 +136,7 @@
     }
   });
 
-  /**
-   * News carousel
-   */
+  // newsCorousel
   new Swiper('#news-carousel', {
     speed: 600,
     loop: true,
@@ -174,9 +163,8 @@
     }
   });
 
-  /**
-   * Testimonial carousel
-   */
+ 
+  // testimonialCarousel
   new Swiper('#testimonial-carousel', {
     speed: 600,
     loop: true,
@@ -192,9 +180,8 @@
     }
   });
 
-  /**
-   * Property Single carousel
-   */
+  
+  // propertySingleCorousel
   new Swiper('#property-single-carousel', {
     speed: 600,
     loop: true,
