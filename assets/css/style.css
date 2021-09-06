@@ -790,7 +790,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #000000;
+  background-color: #fff;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -1036,7 +1036,7 @@ a:hover {
 .intro .intro-title {
   color: #ffffff;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -2133,3 +2133,42 @@ footer .copyright-footer {
 footer .credits {
   font-size: 14px;
 }
+
+
+
+/* Counts */
+.counts {
+  padding: 70px 0 60px;
+}
+
+.counts .count-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.counts .count-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #2EA9E0;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #2EA9E0;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+/* End of counts section */
